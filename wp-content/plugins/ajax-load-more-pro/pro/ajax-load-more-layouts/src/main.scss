@@ -1,0 +1,717 @@
+/* Reset default ALM styles */
+.alm-layouts .alm-listing{
+   margin: 0;
+   padding: 0;
+   .alm-layout{
+   	width: 100%;
+   	display: block;
+   	clear: both;
+   	padding: 0;
+   	margin: 0 0 4%;
+   	overflow: visible;
+      box-sizing: border-box;
+      *{
+         box-sizing: border-box;
+      }
+      a,
+      img{
+         box-shadow: none;
+         border: none;
+      }
+      img {
+      	position:static;
+      	max-width:100%;
+      	height: auto;
+      	clear:both;
+      	margin: 0;
+      	border-radius: 0;
+      	display: block;
+      }
+      h3 {
+      	font-size: 22px;
+      	line-height: 1.15;
+      	font-weight: 600;
+      	margin: 0 0 10px;
+      	padding: 0;
+      	a{
+	      	text-decoration: none;
+	      	&:hover,
+	      	&:focus{
+		      	text-decoration: underline;
+	      	}
+      	}
+      }
+      p.entry-meta{
+      	font-size: 15px;
+         opacity: 0.7;
+         margin: 0 0 10px;
+      }
+      p {
+      	font-size: 15px;
+      	line-height: 1.5;
+      	margin: 0 0 1em;
+      } 
+   }
+}
+
+
+/* Columns */
+.alm-layouts .alm-listing .alm-layout.alm-2-col,
+.alm-layouts .alm-listing .alm-layout.alm-3-col,
+.alm-layouts .alm-listing .alm-layout.alm-4-col{
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+	clear: none;   
+}
+/* 2 Column */
+.alm-layouts .alm-listing .alm-layout.alm-2-col{}
+	.alm-layouts .alm-listing .alm-2-col.odd{
+		margin-right: 4%;	
+	}
+.alm-layouts .alm-listing .alm-layout.alm-2-col.alm-gallery{
+   width: 50%;
+   margin: 0; 
+}	
+/* 3 & 4 Column /*/
+.alm-layouts .alm-listing .alm-layout.alm-3-col,
+.alm-layouts .alm-listing .alm-layout.alm-4-col{
+	width: 30.6333%;
+	margin-right: 4%;	
+	&.last{
+		margin-right: 0;	
+	}
+}
+.alm-layouts .alm-listing .alm-layout.alm-4-col{
+	width: 21.9333%;
+}
+.alm-layouts .alm-listing .alm-layout.alm-3-col.alm-gallery,
+.alm-layouts .alm-listing .alm-layout.alm-4-col.alm-gallery{
+   width: 33.333%;
+   margin: 0;  
+}
+.alm-layouts .alm-listing .alm-layout.alm-4-col.alm-gallery{
+	width: 25%;	
+}
+
+
+
+/* Default */
+.alm-layouts .alm-listing .alm-default {
+	background: none;
+	list-style: none;
+	padding: 0 0 0 170px;
+	transition: all 0.35s ease;
+	min-height: 150px;
+}
+   .alm-layouts .alm-listing .alm-default img {
+   	max-width:100%;
+   	clear:both;
+   	position:absolute;
+   	left: 0;
+   	top: 2px;
+   	margin: 0;
+   	border-radius: 3px;
+   }   
+   .alm-layouts .alm-listing .alm-default p{
+	   text-align: left;
+   }
+   .alm-layouts .alm-listing .alm-default.alm-2-col {
+      padding-left: 106px; 
+      min-height: 100px; 
+   }   
+   .alm-layouts .alm-listing .alm-default.alm-2-col img {
+      max-width: 85px;
+   }  
+   .alm-layouts .alm-listing .alm-default.alm-3-col,
+   .alm-layouts .alm-listing .alm-default.alm-4-col {
+      padding-left: 80px; 
+      min-height: 100px; 
+   }   
+   .alm-layouts .alm-listing .alm-default.alm-3-col img,
+   .alm-layouts .alm-listing .alm-default.alm-4-col img {
+      max-width: 65px;
+   }
+	
+	
+	
+/* Call to Action */
+.alm-layouts .alm-listing .alm-cta {
+	background: none;
+	list-style: none;
+	padding:0;
+	margin-bottom: 4%;
+	transition: all 0.35s ease;
+	img {
+   	width:100%;
+   	clear:both;
+   	position:static;
+   	margin: 0;   	
+   	border-radius: 0;   	
+		transition: all 0.2s ease;
+   }
+   a{
+      display: block;
+      color: inherit;
+      text-decoration: none;  
+      &:hover,
+      &:focus{
+         img{
+            opacity: 0.7;
+         }
+         h3{
+            text-decoration: underline;
+         }
+      }
+   }
+   .details{
+	   padding: 20px 20px;
+	   display: block;
+		border-top: none;
+		position: relative;
+   }
+   h3{
+      color: #333;
+      margin: 0 0 20px;
+      text-decoration: none;
+   }
+   p{
+      text-align: left;
+   }
+}
+   
+   
+
+/* Card Flip */
+.alm-layouts .alm-listing .alm-card{
+	position: relative;
+}
+   .alm-layouts .alm-listing .alm-card a.card-container {
+      perspective: 1000px;
+      border: 1px solid #efefef !important;
+      background: #f7f7f7;
+		display: block;	
+		position: relative;
+   }
+	.alm-layouts .alm-listing .alm-card a.card-container:hover .card-flip, 
+	.alm-layouts .alm-listing .alm-card a.card-container.hover .card-flip {
+		transform: rotateY(180deg);
+	}
+	
+	/* IE ONLY */
+	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+		.alm-layouts .alm-listing .alm-card a.card-container:hover .card-flip, 
+		.alm-layouts .alm-listing .alm-card a.card-container.hover .card-flip {
+			transform: rotateY(0deg);
+		}
+	}
+	/* END IE ONLY */
+		
+   .alm-layouts .alm-listing .alm-card .card-flip {
+   	transition: 0.6s;
+   	transform-style: preserve-3d;
+   	position: relative;
+   }
+   .alm-layouts .alm-listing .alm-card .img-mask{
+      opacity: 0;
+      visibility: hidden;  
+   }
+   .alm-layouts .alm-listing .alm-card .card-front, 
+   .alm-layouts .alm-listing .alm-card .card-back {         
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;         
+      backface-visibility: hidden;      
+      transition: 0.6s;
+      transform-style: preserve-3d;
+      transform: rotateY(0deg);
+   }
+   .alm-layouts .alm-listing .alm-card .card-front {
+   	z-index: 2;
+   	transform: rotateY(0deg);
+   }
+   .alm-layouts .alm-listing .alm-card .card-back {
+	   transform: rotateY(-180deg);
+   }	
+   .alm-layouts .alm-listing .alm-card h3{
+      position: absolute;
+      bottom: 0;
+      margin: 0;  
+      color: #fff;
+      font-size: 18px;
+      line-height: 20px;
+      padding: 14px 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      max-width: 90%;
+   }
+   .alm-layouts .alm-listing .alm-card h3 span{
+      display: block;
+      opacity: 0.65;
+      font-weight: 400;
+      font-size: 14px;
+      color: #fff;
+      padding: 4px 0 0;
+   }
+   .alm-layouts .alm-listing .alm-card img{
+      height: auto;
+   }
+   .alm-layouts .alm-listing .alm-card .text-wrap{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      height: 100%;
+      display: block;
+      padding: 0 7%;
+      background-color: #222;
+      box-shadow: inset 0 0 0 10px #333, inset 0 0 0 11px rgba(255, 255, 255, 0.1);
+      text-align: center;
+   }
+	.alm-layouts .alm-listing .alm-card p{
+   	color: #ccc;
+   	padding: 0 20px;
+   	margin: 0 0 10px;
+   	font-size: 14px;
+   	position: absolute;
+   	top: 50%;
+   	transform: translateY(-50%);
+   	text-align: left;
+   	max-height: 80%;
+   	overflow-y: auto;
+   	width: 86%;
+	}
+	.alm-layouts .alm-listing .alm-card span.more{
+      font-weight: 700;
+      color: #fff;	
+   	padding: 8px 0 0;
+   	margin: 0;
+   	display: block;
+   	font-size: 12px;
+   	text-transform: uppercase;
+   }
+	
+	
+	
+/* Gallery */
+.alm-layouts .alm-listing .alm-gallery{
+   padding: 1px;
+}
+	.alm-layouts .alm-listing .alm-gallery a{
+		display: block;
+		overflow: hidden;	
+      position: relative;
+	}
+	.alm-layouts .alm-listing .alm-gallery a:hover img{
+      transform: scale(1.20);	
+   }
+	.alm-layouts .alm-listing .alm-gallery a:hover .alm-gallery-img-wrap{
+		filter: blur(5px);
+	}
+	.alm-layouts .alm-listing .alm-gallery a:hover .overlay-details{
+		opacity: 1;
+	}
+	.alm-layouts .alm-listing .alm-gallery .overlay-details{
+		opacity: 0;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		transition: opacity 0.5s ease 0.15s;
+		background: rgba(0, 0, 0, 0.4);
+		padding: 0 10%;
+		text-align: center;
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+	}
+	.alm-layouts .alm-listing .alm-gallery .overlay-details .vertical-align{
+   	position: relative;
+   	top: 50%;
+   	transform: translateY(-50%);
+	}
+	.alm-layouts .alm-listing .alm-gallery img{
+      position: static;	
+      width: 100%;
+      height: auto;
+      transform: scale(1.05);	
+      backface-visibility: hidden;
+	}
+	.alm-layouts .alm-listing .alm-gallery .alm-gallery-img-wrap,
+	.alm-layouts .alm-listing .alm-gallery img{
+      transition: all 0.45s ease-in-out;   	
+	}	
+	.alm-layouts .alm-listing .alm-gallery h3{
+   	color: #fff;
+   	margin: 0 0 15px;
+   	font-weight: 800;
+	}
+	.alm-layouts .alm-listing .alm-gallery p{
+   	color: #fff;
+   	margin: 0;
+   	opacity: 0.85;
+	}
+	.alm-layouts .alm-listing .alm-gallery p.entry-date{
+   	margin: 0 0 5px;
+   	opacity: 0.5;
+   	font-weight: 300;
+   	font-size: 12px;
+   	text-transform: uppercase;
+	}
+	
+
+/* Flexbox */
+.alm-layouts .alm-listing.flex,
+.alm-layouts .alm-listing.flex .alm-reveal{
+	display: flex;  
+   flex-wrap: wrap;
+}
+
+
+/* Blog Card */
+.alm-layouts .alm-listing .alm-blog-card  {
+	background: #efefef;
+	border: 1px solid #e7e7e7;
+	border-radius: 5px;
+	padding: 25px 25px 110px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	img.wp-post-image {
+		border: 3px solid #fff;
+		border-radius: 100%;
+		box-shadow: 0 0 3px #ccc;
+		width: 120px;
+		height: 120px;
+		margin: -60px auto 25px;
+	}
+	h3,
+	p{
+		margin: 0 0 15px;
+		padding: 0 5%;
+	}
+	p.alm-meta{
+		opacity: 0.75;
+		margin-bottom: 0;	
+	}
+	p.alm-meta{
+		font-size: 13px;
+	}
+}
+	
+
+.alm-layouts .alm-listing .alm-post-author{
+	display: block;
+	width: 100%;
+	height: 60px;
+	overflow: visible;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+	border-top: 1px solid #e7e7e7;	
+	padding: 0 10px;
+	border-radius: 0 0 4px 4px;
+	font-size: 13px;
+	span{
+		display: block;
+		vertical-align: top;
+		padding: 15px;
+		line-height: 30px;			
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+   }
+   img{
+		max-width: 36px;
+		max-height: 36px;
+		border-radius: 100%;
+		box-shadow: 0 0 0 1px #e1e1e1;
+		position: absolute;
+		left: 50%;
+		top: -18px;
+		margin-left: -18px;
+		z-index: 2;
+	}
+	a{
+   	text-decoration: none;
+   	&:hover,
+   	&:focus{
+   		text-decoration: underline;
+   	}
+	}
+}
+		
+		
+/* Blog Card #2 */
+.alm-layouts .alm-listing .alm-blog-card-2  {
+	background: #fff;
+	border: 1px solid #e7e7e7;
+	border-radius: 2px;
+	padding: 0 0 60px;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 50px;
+	img.wp-post-image {
+		width: 100%;
+		margin: 0;
+		display: block;
+		border-radius: 1px 1px 0 0;
+	}		
+	.alm-card-details{
+   	display: block;
+   	padding: 40px 30px 30px;
+   	position: relative;
+	}	
+	.avatar{
+   	width: 50px;
+   	height: 50px;
+   	border-radius: 100%;
+   	position: absolute;
+   	top: -25px;
+   	left: 30px;
+   	z-index: 1;
+	}	
+	h3{
+   	margin: 0 0 20px;
+	}
+	p{
+   	margin: 0 0 20px;
+   	font-size: 15px;
+   }
+   p.alm-more-link{
+      margin: 0;
+      font-weight: 600;
+   	font-size: 13px;
+   	text-transform: uppercase;
+   }
+   .alm-post-author{
+      background-color: #f7f7f7;
+      box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.05);
+   }
+}
+   
+/* Blog Card #3 */
+.alm-layouts .alm-listing .alm-blog-card-3 {
+	background: #f7f7f7;
+	border: none;
+	border-radius: 15px;
+	padding: 0;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 50px;
+	overflow: hidden;
+	box-shadow: 0 0 0 1px #efefef;
+	img.wp-post-image {
+		width: 100%;
+		margin: 0;
+		display: block;
+		border-radius: 15px 15px 0 0;
+	}		
+	.alm-card-details{
+   	display: block;
+   	padding: 30px 30px 70px;
+   	position: relative;
+	}	
+	h3{
+   	font-weight: 600;
+   	font-size: 20px;
+   	margin: 0 0 20px;
+	}
+	p{
+   	margin: 0 0 20px;
+   	font-size: 15px;
+   }
+   .alm-post-author{
+      border-top: none;
+      border-radius: 0 0 14px 14px;
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      padding: 20px 30px;
+      border-top: 1px solid #efefef;
+      img, span{
+         display: inline-block;
+         vertical-align: top;         
+      }
+      img{
+         position: static;
+         margin: 0 10px 0 0;
+         box-shadow: none;
+      }
+      span{
+         width: auto;
+         padding: 0;
+         flex: 1;
+      }
+   }
+}
+
+
+@media screen and (max-width: 1024px) { 
+   
+	/* Overlay */
+	.alm-layouts .alm-listing .alm-overlay .overlay-details {
+	   padding: 15px;
+	}
+	.alm-layouts .alm-listing .alm-overlay .overlay-details h3{
+	   font-size: 18px;  
+	}
+	.alm-layouts .alm-listing .alm-overlay .overlay-details p{
+	   font-size: 14px;
+	}	
+	
+	/* Gallery */
+	.alm-layouts .alm-listing .alm-layout.alm-3-col.alm-gallery,
+	.alm-layouts .alm-listing .alm-layout.alm-4-col.alm-gallery{
+	   width: 50%;  
+	}
+	.alm-layouts .alm-listing .alm-layout.alm-4-col{
+		width: 48%;
+		margin-right: 4%;
+		&:nth-child(even){
+			margin-right: 0;
+		}
+	}
+   
+}
+
+
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+   
+   /* Flexbox */
+   .alm-layouts .alm-listing.flex,
+   .alm-layouts .alm-listing.flex .alm-reveal{
+      display: block;  
+   }
+	
+	.alm-layouts .alm-listing .alm-layout.alm-2-col,
+	.alm-layouts .alm-listing .alm-layout.alm-3-col,
+	.alm-layouts .alm-listing .alm-layout.alm-4-col{
+		width: 100%;
+		display: block;	
+		margin-left: 0;	
+		margin-right: 0;
+	}
+	.alm-layouts .alm-listing .alm-layout.alm-3-col.last,
+	.alm-layouts .alm-listing .alm-layout.alm-4-col.last,
+	.alm-layouts .alm-listing .alm-layout.alm-2-col.odd{
+		margin-right: 0;	
+	}	
+	.alm-layouts .alm-listing .alm-layout{
+		margin: 0 0 6%;
+	}		
+	
+	/* Default */
+	.alm-layouts .alm-listing .alm-default,
+	.alm-layouts .alm-listing .alm-default.alm-2-col,
+	.alm-layouts .alm-listing .alm-default.alm-3-col,
+	.alm-layouts .alm-listing .alm-default.alm-4-col {
+		min-height: 120px;
+		padding: 0 0 0 140px;
+	}
+	.alm-layouts .alm-listing .alm-default img,
+	.alm-layouts .alm-listing .alm-default.alm-2-col img,
+	.alm-layouts .alm-listing .alm-default.alm-3-col img,
+	.alm-layouts .alm-listing .alm-default.alm-4-col img {
+		max-width: 120px;
+		width: 120px;
+		height: auto;
+	}
+	
+	/* Overlay */
+	.alm-layouts .alm-listing .alm-overlay .overlay-details{
+		padding: 12px;	
+	}
+	.alm-layouts .alm-listing .alm-layout .alm-overlay h3{
+		margin: 0;
+		font-size: 18px;
+		line-height: 1;
+	}
+	.alm-layouts .alm-listing .alm-layout .alm-overlay p{
+		display: none;
+	}	
+	
+	/* Gallery */
+	.alm-layouts .alm-listing .alm-layout.alm-gallery,
+	.alm-layouts .alm-listing .alm-layout.alm-2-col.alm-gallery,
+	.alm-layouts .alm-listing .alm-layout.alm-3-col.alm-gallery,
+	.alm-layouts .alm-listing .alm-layout.alm-4-col.alm-gallery{
+      float: none;
+      width: 100%;	
+   }
+   .alm-layouts .alm-listing .alm-gallery .overlay-details{
+      padding: 0 15%;  
+   }
+   alm-layouts .alm-gallery h3{
+   	color: #fff;
+   	font-size: 26px;
+	}
+	.alm-layouts .alm-listing .alm-gallery p{
+      font-size: 16px;	
+   }
+   
+   /* Card Flip */
+	.alm-layouts .alm-listing .alm-card img{
+   	width: auto;
+   	height: auto;
+	}
+	
+	/* Blog Card */
+	.alm-layouts .alm-listing .alm-blog-card{
+		margin-bottom: 60px;
+	}
+	.alm-layouts .alm-listing .alm-blog-card img.wp-post-image {
+		border: 2px solid #fff;
+		width: 100px;
+		height: 100px;
+		margin: -50px auto 20px;
+	}
+	
+}
+
+
+/* Medium Mobile */
+@media screen and (max-width: 560px) {}
+
+
+/* Small Mobile */
+@media screen and (max-width: 480px) {
+	
+	/* Default */
+	.alm-layouts .alm-listing .alm-default,
+	.alm-layouts .alm-listing .alm-default.alm-2-col,
+	.alm-layouts .alm-listing .alm-default.alm-3-col,
+	.alm-layouts .alm-listing .alm-default.alm-4-col {
+		min-height: 80px;
+		padding: 0 0 0 96px;
+	}
+	.alm-layouts .alm-listing .alm-default img,
+	.alm-layouts .alm-listing .alm-default.alm-2-col img,
+	.alm-layouts .alm-listing .alm-default.alm-3-col img,
+	.alm-layouts .alm-listing .alm-default.alm-4-col img {
+		max-width: 80px;
+		width: 80px;
+		height: auto;
+	}	
+	
+	/* Gallery */	
+   .alm-layouts .alm-listing .alm-gallery .overlay-details{
+      padding: 0 10%;  
+   }
+	.alm-layouts .alm-listing .alm-gallery h3{
+   	color: #fff;
+   	font-size: 22px;
+	}
+	.alm-layouts .alm-listing .alm-gallery p{
+   	font-size: 14px;
+	}
+	.alm-layouts .alm-listing .alm-gallery p:not(.entry-date){
+      display: none;	
+   }
+	
+}

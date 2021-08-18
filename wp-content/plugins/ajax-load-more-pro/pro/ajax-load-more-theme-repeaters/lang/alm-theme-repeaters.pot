@@ -1,0 +1,56 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ALM Theme Repeaters\n"
+"POT-Creation-Date: 2018-06-07 09:32-0400\n"
+"PO-Revision-Date: 2016-02-04 09:56-0500\n"
+"Last-Translator: Darren Cooney <darren@connekthq.com>\n"
+"Language-Team: \n"
+"Language: en_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ajax-load-more-theme-repeaters.php:94
+msgid "Directory Selection"
+msgstr ""
+
+#: ../ajax-load-more-theme-repeaters.php:318
+msgid "Theme Repeater"
+msgstr ""
+
+#: ../ajax-load-more-theme-repeaters.php:319
+msgid "Select a repeater template from the <span>"
+msgstr ""
+
+#: ../ajax-load-more-theme-repeaters.php:333
+msgid "Select Theme Repeater"
+msgstr ""
+
+#: ../ajax-load-more-theme-repeaters.php:346
+msgid "No Templates Found"
+msgstr ""
+
+#: ../ajax-load-more-theme-repeaters.php:367
+msgid ""
+"Customize your installation of the <a href=\"http://connekthq.com/plugins/"
+"ajax-load-more/theme-repeaters/\">Theme Repeaters</a> add-on."
+msgstr ""
+
+#: ../ajax-load-more-theme-repeaters.php:385
+msgid ""
+"Select the directory that will hold your <strong>Theme Repeater</strong> "
+"templates - all templates <u>must</u> be stored in a top level directory "
+"within your current theme folder"
+msgstr ""
+
+#: ../ajax-load-more-theme-repeaters.php:386
+msgid ""
+"If a directory has not been specified, Ajax Load More will attempt to load "
+"templates from <span><i class=\"fa fa-folder\"></i> alm_templates</span>"
+msgstr ""

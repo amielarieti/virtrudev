@@ -1,0 +1,11 @@
+Contributors: dcooney
+Author: Darren Cooney
+Author URI: https://connekthq.com/
+Plugin URI: https://connekthq.com/plugins/easy-query/
+License: GPL
+
+== License ==
+
+Distribution of this premium plugin without a valid license is strictly prohibited.
+
+Connekt Media retains zero responsibility for misuse of the plugin or errors caused by using this premium plugin.

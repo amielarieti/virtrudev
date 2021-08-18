@@ -1,0 +1,1 @@
+<?php $latest=get_permalink($post->ID); ?>

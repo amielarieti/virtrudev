@@ -1,0 +1,682 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GDPR Cookie Compliance - Premium Add-On\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-12 10:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.5.1"
+
+#: views/moove/admin/settings/accept-on-scroll.php:115
+msgid " seconds"
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:204
+msgid ""
+"(users from other countries will not see the Cookie Banner and will have all "
+"cookies enabled by default)"
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:158
+msgid ""
+"(users from outside of California region will not see the Cookie Banner and "
+"will have all cookies enabled by default)"
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:174
+msgid ""
+"(users from outside of Canada will not see the Cookie Banner and will have "
+"all cookies enabled by default)"
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:142
+msgid ""
+"(users from outside of the EU will not see the Cookie Banner and will have "
+"all cookies enabled by default)"
+msgstr ""
+
+#: moove-gdpr-addon-actions.php:840
+msgid "Accept on Scroll / Hide timer"
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:340
+#: views/moove/admin/settings/consent-log.php:208
+msgid "Active filters"
+msgstr ""
+
+#: views/moove/admin/settings/cookie-declaration/declaration-flex.php:116
+msgid "Add Cookie Info"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:184
+msgid "Add New"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:183
+msgid "Add New Item"
+msgstr ""
+
+#: views/moove/admin/settings/accept-on-scroll.php:77
+#, php-format
+msgid "After the user clicks the Accept/Reject button %1$s"
+msgstr ""
+
+#: views/moove/admin/settings/accept-on-scroll.php:98
+msgid "After the user scrolls down the page"
+msgstr ""
+
+#: views/moove/admin/settings/accept-on-scroll.php:113
+msgid "After this amount of time "
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:104
+msgid "all"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:182
+msgid "All Items"
+msgstr ""
+
+#: moove-gdpr-addon-actions.php:848 views/moove/admin/settings/stats.php:7
+msgid "Analytics"
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:247
+#: views/moove/admin/settings/stats.php:305
+msgid "Analytics Settings"
+msgstr ""
+
+#: views/moove/admin/settings/cookie-declaration.php:61
+msgid "Below you can list cookies that your website uses."
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:154
+msgid "California (US)"
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:170
+msgid "Canada"
+msgstr ""
+
+#: views/moove/admin/settings/accept-on-scroll.php:63
+msgid "Capture user consent & hide the banner"
+msgstr ""
+
+#: views/moove/admin/settings/analytics/clicked-accept-all.php:10
+msgid "Clicked \"Accept all\" button"
+msgstr ""
+
+#: views/moove/admin/settings/multisite-settings.php:175
+msgid ""
+"Code snippets and other editable text and labels will not be synchronised so "
+"that you can have different scripts and different description text on each "
+"subsite (ie. different language labels)."
+msgstr ""
+
+#: views/moove/admin/settings/consent-log/log-table.php:11
+msgid "Consent Date"
+msgstr ""
+
+#: moove-gdpr-addon-actions.php:868
+#: views/moove/admin/settings/consent-log.php:7
+msgid "Consent Log"
+msgstr ""
+
+#: views/moove/admin/settings/consent-log.php:86
+msgid "Consent Log Settings"
+msgstr ""
+
+#: views/moove/admin/settings/renew-consent.php:54
+msgid "Consent version"
+msgstr ""
+
+#: views/moove/admin/settings/analytics/infobar-showed.php:10
+msgid "Cookie Banner Showed"
+msgstr ""
+
+#: moove-gdpr-addon-actions.php:864
+msgid "Cookie Declaration"
+msgstr ""
+
+#: views/moove/admin/settings/analytics/modal-opened.php:10
+msgid "Cookie Settings Screen Opened"
+msgstr ""
+
+#: views/moove/admin/settings/consent-log/log-table.php:13
+#: views/moove/admin/settings/analytics/cookies-accepted.php:76
+msgid "Cookies Accepted"
+msgstr ""
+
+#: views/moove/admin/settings/multisite-settings.php:131
+#: views/moove/admin/settings/multisite-settings.php:150
+msgid "Copy All Settings"
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:250
+#: views/moove/admin/settings/stats.php:288
+#: views/moove/admin/settings/stats.php:292
+msgid "Delete All Analytics"
+msgstr ""
+
+#: views/moove/admin/settings/consent-log.php:89
+#: views/moove/admin/settings/consent-log.php:130
+#: views/moove/admin/settings/consent-log.php:134
+msgid "Delete All Logs"
+msgstr ""
+
+#: views/moove/admin/settings/export-import.php:59
+#: views/moove/admin/settings/multisite-settings.php:69
+#: views/moove/admin/settings/multisite-settings.php:95
+msgid "Dismiss this notice."
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:101
+#, php-format
+msgid ""
+"Do you want to show the Cookie Banner to %1$s users or to users from %2$s "
+"only?"
+msgstr ""
+
+#: views/moove/admin/settings/export-import.php:89
+msgid "Download"
+msgstr ""
+
+#: views/moove/admin/settings/consent-log.php:161
+msgid "Download Logs"
+msgstr ""
+
+#: views/moove/admin/settings/analytics/total-sessions.php:16
+msgid ""
+"Each session begins when a user visits your site, and terminates once the "
+"browser tab is closed. Repeated user visits will increase your session "
+"numbers."
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:186
+msgid "Edit Item"
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:269
+#: views/moove/admin/settings/consent-log.php:111
+#: views/moove/admin/settings/consent-log.php:156
+msgid "End Date"
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:137
+msgid "European Union"
+msgstr ""
+
+#: views/moove/admin/settings/consent-log.php:91
+#: views/moove/admin/settings/consent-log.php:148
+msgid "Export Logs"
+msgstr ""
+
+#: views/moove/admin/settings/export-import.php:79
+#: views/moove/admin/settings/export-import.php:85
+msgid "Export Settings"
+msgstr ""
+
+#: moove-gdpr-addon-actions.php:832
+msgid "Export/Import Settings"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:193
+msgid "Featured Image"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:201
+msgid "Filter items list"
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:274
+#: views/moove/admin/settings/consent-log.php:116
+msgid "Filter Results"
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:248
+#: views/moove/admin/settings/consent-log.php:87
+msgid "Filter results"
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:262
+#: views/moove/admin/settings/consent-log.php:104
+msgid "Filter results by date"
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:248
+#: views/moove/admin/settings/consent-log.php:87
+msgid "Filters"
+msgstr ""
+
+#: moove-gdpr-addon-actions.php:844
+msgid "Full-screen / Cookiewall"
+msgstr ""
+
+#: views/moove/admin/settings/full-screen-mode.php:50
+msgid "Full-Screen Mode Setup"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:177 moove-gdpr-addon-analytics.php:204
+msgid "GDPR Analytics"
+msgstr ""
+
+#. Name of the plugin
+msgid "GDPR Cookie Compliance - Premium Add-On"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:205
+msgid "GDPR Cookie Compliance Analytics"
+msgstr ""
+
+#: moove-gdpr-addon-actions.php:852
+msgid "Geo Location"
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:90
+msgid "Geo Location Setup"
+msgstr ""
+
+#: moove-gdpr-addon-actions.php:856
+msgid "Hide Cookie Banner"
+msgstr ""
+
+#: views/moove/admin/settings/cookie-banner-manager.php:38
+msgid "Hide Cookie Banner on Selected Posts / Pages "
+msgstr ""
+
+#: views/moove/admin/settings/iframe-blocker.php:94
+msgid ""
+"Hide Iframe Blocker automatically if the user enabled the following cookies"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.mooveagency.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.mooveagency.com/wordpress-plugins/gdpr-cookie-compliance/"
+msgstr ""
+
+#: views/moove/admin/settings/full-screen-mode.php:64
+msgid ""
+"If enabled, the Cookie Banner will be displayed in full screen mode, and "
+"force the user to either accept all cookies, or to review the Cookie "
+"Settings."
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:235
+msgid ""
+"If the 3rd party service is temporarily unavailable, the banner will be "
+"shown to all users."
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:306
+msgid ""
+"If the this feature is enabled, it may slow down your site as every "
+"interaction with the Cookie Banner or Cookie Pop-up will be recorded."
+msgstr ""
+
+#: views/moove/admin/settings/multisite-settings.php:174
+msgid ""
+"If you enable this feature, all general settings will be constantly synced "
+"between all sites in your multisite network."
+msgstr ""
+
+#: moove-gdpr-addon-actions.php:860
+#: views/moove/admin/settings/iframe-blocker.php:48
+msgid "Iframe Blocker"
+msgstr ""
+
+#: views/moove/admin/settings/export-import.php:100
+msgid "Import Settings"
+msgstr ""
+
+#: views/moove/admin/settings/export-import.php:111
+msgid "Import settings"
+msgstr ""
+
+#: views/moove/admin/settings/export-import.php:106
+msgid "Import settings from file"
+msgstr ""
+
+#: views/moove/admin/settings/renew-consent.php:66
+msgid ""
+"Increase the number above and your users will be asked to accept cookies "
+"again."
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:197
+msgid "Insert into item"
+msgstr ""
+
+#: views/moove/admin/settings/consent-log/log-table.php:12
+msgid "IP Address"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:179
+msgid "Item Archives"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:180
+msgid "Item Attributes"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:199
+msgid "Items list"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:200
+msgid "Items list navigation"
+msgstr ""
+
+#. Author of the plugin
+msgid "Moove Agency"
+msgstr ""
+
+#: moove-gdpr-addon-actions.php:836
+#: views/moove/admin/settings/multisite-settings.php:111
+msgid "Multisite Settings"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:185
+msgid "New Item"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:191
+msgid "Not found"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:192
+msgid "Not found in Trash"
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:306
+msgid "Notice"
+msgstr ""
+
+#: views/moove/admin/settings/analytics/modal-opened.php:15
+msgid ""
+"Number of sessions where the Cookie Settings screen was viewed by a user. "
+"Triggers: User clicking on the Floating Button, Settings link clicked from "
+"the Cookie Banner, or user clicking on a custom link (#gdpr_cookie_modal)."
+msgstr ""
+
+#: views/moove/admin/settings/analytics/infobar-showed.php:16
+msgid ""
+"Only the first visit from the session will increase this number (if the "
+"infobar is visible, if the cookies was accepted before, only the accepted "
+"cookies will be increased)"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:181
+msgid "Parent Item:"
+msgstr ""
+
+#: views/moove/admin/settings/analytics/total-sessions-percentage.php:13
+msgid "Percentage of sessions with cookies accepted"
+msgstr ""
+
+#: views/moove/admin/settings/full-screen-mode.php:65
+msgid ""
+"Please note that this feature requires the Strictly Necessary Cookies to be "
+"always enabled (otherwise the Cookie Banner would be displayed at every "
+"visit)."
+msgstr ""
+
+#: views/moove/admin/settings/consent-log.php:192
+msgid ""
+"Please note this feature may slow down your website as every user "
+"interaction with the Cookie Notice Banner or Cookie Settings Screen will be "
+"recorded."
+msgstr ""
+
+#: views/moove/admin/settings/export-import.php:38
+msgid "Please upload the settings file!"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:178
+#: views/moove/admin/settings/cookie-banner-manager.php:127
+msgid "Post Type"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:175
+msgctxt "Post Type General Name"
+msgid "GDPR Analytics"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:176
+msgctxt "Post Type Singular Name"
+msgid "GDPR Analytics"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:195
+msgid "Remove featured image"
+msgstr ""
+
+#: moove-gdpr-addon-actions.php:872
+#: views/moove/admin/settings/renew-consent.php:40
+msgid "Renew Consent"
+msgstr ""
+
+#: views/moove/admin/settings/multisite-settings.php:181
+msgid "Save"
+msgstr ""
+
+#: views/moove/admin/settings/renew-consent.php:79
+#: views/moove/admin/settings/stats.php:328
+#: views/moove/admin/settings/consent-log.php:196
+msgid "Save Changes"
+msgstr ""
+
+#: views/moove/admin/settings/cookie-banner-manager.php:137
+#: views/moove/admin/settings/geo-location.php:248
+#: views/moove/admin/settings/cookie-declaration.php:183
+#: views/moove/admin/settings/full-screen-mode.php:91
+#: views/moove/admin/settings/iframe-blocker.php:157
+#: views/moove/admin/settings/accept-on-scroll.php:137
+msgid "Save changes"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:190
+msgid "Search Item"
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:200
+msgid "selected countries"
+msgstr ""
+
+#: views/moove/admin/settings/analytics/total-sessions.php:10
+msgid "Sessions tracked"
+msgstr ""
+
+#: views/moove/admin/settings/analytics/total-sessions-cookies.php:10
+msgid "Sessions with cookies accepted"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:194
+msgid "Set featured image"
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:247
+#: views/moove/admin/settings/consent-log.php:86
+msgid "Settings"
+msgstr ""
+
+#: moove-gdpr-addon-actions.php:107 moove-gdpr-addon-actions.php:978
+msgid "settings"
+msgstr ""
+
+#: views/moove/admin/settings/multisite-settings.php:93
+msgid "Settings copied!"
+msgstr ""
+
+#: views/moove/admin/settings/export-import.php:50
+msgid "Settings imported successfully!"
+msgstr ""
+
+#: views/moove/admin/settings/multisite-settings.php:67
+msgid "Settings saved"
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:244
+#: views/moove/admin/settings/consent-log.php:83
+msgid "Setup & Filters"
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:151
+#: views/moove/admin/settings/geo-location.php:167
+#, php-format
+msgid "Show Cookie Banner to users from %1$s only."
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:134
+#: views/moove/admin/settings/geo-location.php:197
+#, php-format
+msgid "Show Cookie Banner to users from the %1$s only."
+msgstr ""
+
+#: views/moove/admin/settings/geo-location.php:108
+msgid "specific countries"
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:264
+#: views/moove/admin/settings/consent-log.php:106
+#: views/moove/admin/settings/consent-log.php:151
+msgid "Start Date"
+msgstr ""
+
+#: views/moove/admin/settings/multisite-settings.php:164
+msgid "Sync General Settings"
+msgstr ""
+
+#: views/moove/admin/settings/analytics/tab-navigation.php:14
+msgid "Tabs Clicked inside Modal"
+msgstr ""
+
+#: views/moove/admin/settings/cookie-declaration.php:62
+msgid "The list will be displayed on the Cookie Settings screen."
+msgstr ""
+
+#: views/moove/admin/settings/renew-consent.php:48
+msgid ""
+"This feature allows you to ask users to renew their consent if there is a "
+"change in privacy or cookie policy on your website."
+msgstr ""
+
+#: views/moove/admin/settings/multisite-settings.php:184
+msgid "This feature is available only for WordPress Multisite installs!"
+msgstr ""
+
+#. %s link to third party.
+#: views/moove/admin/settings/geo-location.php:230
+#, php-format
+msgid ""
+"This functionality is using 3rd party service IP geolocation by %s to "
+"determine the location of the users, based on anonymised format of the "
+"user’s IP address."
+msgstr ""
+
+#: views/moove/admin/settings/analytics/cookies-accepted.php:163
+msgid ""
+"This is the breakdown of cookies that were accepted (based on users who "
+"accepted at least the Strictly Necessary cookies). This number is the "
+"absolute number (it’s not based on sessions but on the actual number of "
+"users who accepted at least the Strictly necessary cookies). Repeated visits "
+"from the same users will not increase these numbers."
+msgstr ""
+
+#: views/moove/admin/settings/analytics/total-sessions-cookies.php:17
+msgid ""
+"This is the number of sessions from users who accepted at least one of the "
+"cookies (either the Strictly Necessary, or more)."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This Premium Add-on gives you additional powerful features that extend our "
+"GDPR Cookie Compliance plugin."
+msgstr ""
+
+#: views/moove/admin/settings/multisite-settings.php:141
+msgid ""
+"This process will override all existing content on the selected sites "
+"(including code snippets and all texts). "
+msgstr ""
+
+#: views/moove/admin/settings/analytics/clicked-accept-all.php:15
+msgid ""
+"This statistic shows the number of users who clicked on the \"Accept\" "
+"button on the Cookie Banner or who clicked on the “Enable all\" button "
+"inside the Cookie Settings Screen."
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:289
+msgid ""
+"This will remove all existing GDPR analytics that are stored and reset the "
+"GDPR analytics tracking to the default settings."
+msgstr ""
+
+#: views/moove/admin/settings/consent-log.php:131
+msgid ""
+"This will remove all existing logs that are stored and reset the logs "
+"tracking to the default settings."
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:187
+msgid "Update Item"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:198
+msgid "Uploaded to this item"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:196
+msgid "Use as featured image"
+msgstr ""
+
+#: views/moove/shortcode/tab_cbm_ps.php:7
+msgid "Use the following shortcodes to allow users to turn cookies on and off"
+msgstr ""
+
+#: views/moove/admin/settings/consent-log/log-table.php:14
+msgid "User Details"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:188
+msgid "View Item"
+msgstr ""
+
+#: moove-gdpr-addon-analytics.php:189
+msgid "View Items"
+msgstr ""
+
+#: views/moove/admin/settings/stats.php:289
+#: views/moove/admin/settings/consent-log.php:131
+msgid "Warning"
+msgstr ""
+
+#: moove-gdpr-addon-actions.php:972
+msgid "We are using cookies to give you the best experience on our website."
+msgstr ""
+
+#: views/moove/admin/settings/export-import.php:42
+msgid "Wrong settings file uploaded!"
+msgstr ""
+
+#: moove-gdpr-addon-actions.php:973
+msgid ""
+"You can find out more about which cookies we are using or switch them off in "
+"[setting]settings[/setting]."
+msgstr ""
+
+#: views/moove/admin/settings/consent-log/log-table.php:102
+msgid "You don't have any entries in this log yet."
+msgstr ""

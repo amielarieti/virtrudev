@@ -1,0 +1,80 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ajax Load More SEO\n"
+"POT-Creation-Date: 2019-03-04 12:57-0500\n"
+"PO-Revision-Date: 2017-10-05 16:14-0500\n"
+"Last-Translator: Darren Cooney <darren@connekthq.com>\n"
+"Language-Team: \n"
+"Language: en_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: src\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+
+#: ajax-load-more-seo.php:46
+msgid ""
+"You must install and activate <a href=\"https://wordpress.org/plugins/ajax-"
+"load-more/\">Ajax Load More</a> before installing the ALM SEO Add-on."
+msgstr ""
+
+#: ajax-load-more-seo.php:221
+msgid "Google Analytics"
+msgstr ""
+
+#: ajax-load-more-seo.php:228
+msgid "Scroll to Page"
+msgstr ""
+
+#: ajax-load-more-seo.php:235
+msgid "Scroll Top"
+msgstr ""
+
+#: ajax-load-more-seo.php:242
+msgid "Back/Fwd Buttons"
+msgstr ""
+
+#: ajax-load-more-seo.php:263
+msgid ""
+"Customize your installation of the <a href=\"http://connekthq.com/plugins/"
+"ajax-load-more/seo/\">Search Engine Optimization</a> add-on."
+msgstr ""
+
+#: ajax-load-more-seo.php:283
+msgid "Send page views to Google Analytics."
+msgstr ""
+
+#: ajax-load-more-seo.php:283
+msgid ""
+"Must have a reference to your Google Analytics tracking code on the page."
+msgstr ""
+
+#: ajax-load-more-seo.php:306
+msgid "Enable window scrolling"
+msgstr ""
+
+#: ajax-load-more-seo.php:306
+msgid ""
+"If scrolling is enabled, the users window will scroll to the current page "
+"on 'Load More' action."
+msgstr ""
+
+#: ajax-load-more-seo.php:328
+msgid "Set the scrolltop position of the window when scrolling to post."
+msgstr ""
+
+#: ajax-load-more-seo.php:353
+msgid "Enable Back/Fwd Browser Buttons."
+msgstr ""
+
+#: ajax-load-more-seo.php:353
+msgid ""
+"Allow users to navigate Ajax generated content using the back and forward "
+"browser buttons."
+msgstr ""
